@@ -1,0 +1,329 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(400deg, #344a72, #ffffff);
+    overflow: hidden;
+}
+
+
+/*Dashboard*/
+.dashboard-utama {
+    position: relative;
+}
+
+.jurnal-keuangan {
+    position: absolute;
+    margin: 10px 0px 0px 40px;
+}
+
+.jurnal-keuangan>p {
+    color: white;
+    font-size: 40px;
+}
+
+.bulan {
+    margin: 55px 0px 0px 40px;
+}
+
+.bulan p {
+    color: white;
+    font-size: 25px;
+}
+
+/*Box*/
+.box-kecil {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: #1F316F;
+    color: white;
+    padding: 15px;
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(79,77,77);
+}
+.box-kecil p {
+    font-size: 20px;
+    margin-bottom: 10px ;
+}
+.total-tabungan {
+    margin: 25px 0px 0px 60px;
+}
+.total-tabungan p,h2 {
+    text-align: center;
+}
+.target-tabungan {
+    margin: 140px 0px 0px 60px;
+}
+.target-tabungan p,h2 {
+    text-align: center;
+}
+.lingkaran-kecil {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    opacity: 90%;
+    border-radius: 50px;
+    background: #4ef275 ;
+}
+.box-besar {
+    position: absolute;
+    background: #1F316F;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(68, 68, 68);
+}
+.box-pemasukan {
+    margin: 25px 0px 0px 400px;
+}
+.box-pengeluaran {
+    margin: 25px 0px 0px 800px;
+}
+
+/*Box Lingkaran Pemasukan*/
+.tiga-lingkaran-pertama {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #222;
+    background: conic-gradient(#999999 0deg, #ededed 0deg);
+}
+.tiga-lingkaran-pertama::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-color: #1F316F;
+}
+.persen-gaji-lingkaran {
+    position: relative;
+    font-weight: 600;
+}
+.teks-gaji-lingkaran {
+    font-size: 20px;
+    margin: 85px 0px 0px 22px;
+}
+
+.tiga-lingkaran-kedua {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 113px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #222;
+    background: conic-gradient(#999999 0deg, #ededed 0deg);
+}
+.tiga-lingkaran-kedua::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-color: #1F316F;
+}
+.persen-investasi-lingkaran {
+    position: absolute;
+    font-weight: 600;
+}
+.teks-investasi-lingkaran {
+    font-size: 20px;
+    margin: -30px 0px 0px 115px;
+}
+
+.tiga-lingkaran-ketiga {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 222px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #222;
+    background: conic-gradient(#999999 0deg, #ededed 0deg);
+}
+.tiga-lingkaran-ketiga::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-color: #1F316F;
+}
+.persen-hadiah-lingkaran {
+    position: absolute;
+    font-weight: 600;
+}
+.teks-hadiah-lingkaran {
+    font-size: 20px;
+    margin: -30px 0px 0px 234px;
+}
+.judul-pemasukan {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+/*Box Lingkaran Pengeluaran*/
+.tiga-lingkaran-pertama-kedua {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #222;
+    background: conic-gradient(#999999 0deg, #ededed 0deg);
+}
+.tiga-lingkaran-pertama-kedua::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-color: #1F316F;
+}
+.persen-makan-lingkaran {
+    position: relative;
+    font-weight: 600;
+}
+.teks-makan-lingkaran {
+    font-size: 20px;
+    margin: 75px 0px 0px 12px;
+}
+
+.tiga-lingkaran-kedua-kedua {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 113px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #222;
+    background: conic-gradient(#999999 0deg, #ededed 0deg);
+}
+.tiga-lingkaran-kedua-kedua::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-color: #1F316F;
+}
+.persen-pajak-lingkaran {
+    position: absolute;
+    font-weight: 600;
+}
+.teks-pajak-lingkaran {
+    font-size: 20px;
+    margin: -30px 0px 0px 130px;
+}
+
+.tiga-lingkaran-ketiga-ketiga {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 222px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #222;
+    background: conic-gradient(#999999 0deg, #ededed 0deg);
+}
+.tiga-lingkaran-ketiga-ketiga::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-color: #1F316F;
+}
+.persen-rokok-lingkaran {
+    position: absolute;
+    font-weight: 600;
+}
+.teks-rokok-lingkaran {
+    font-size: 20px;
+    margin: -30px 0px 0px 235px;
+}
+.judul-pengeluaran {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/*Tabel*/
+.table {
+    position: absolute;
+    top: 57%;
+    left: 2%;
+    height: 200px;
+    overflow: hidden;
+}
+.fixed-header {
+    margin: 280px 0px 0px 0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+.fixed-header thead tr th {
+    text-align: center;
+}
+.fixed-header tbody tr td {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.fixed-header tbody {
+    display: block;
+    width: 100% ;
+    height: 200px ;
+    font-size: 15px;
+    overflow: auto;
+    color: #222;
+}
+.fixed-header thead tr {
+    display: block;
+    text-align: center !important;
+}
+.fixed-header thead {
+    background-color: #1F316F;
+    color: white;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+}
+.fixed-header th, .fixed-header td {
+    padding: 5px;
+    text-align: left;
+    width: 400px;
+}
+.fixed-header ::-webkit-scrollbar{
+    display: none;
+}
+tr td {
+    background-color: white;
+ }
+

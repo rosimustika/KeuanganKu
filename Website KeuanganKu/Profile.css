@@ -1,0 +1,223 @@
+/* Body Styling */
+body {
+    background-color: #1F316F !important;
+    font-family: Arial, sans-serif;
+}
+
+/* Profile Container */
+.container {
+    display: flex;
+    margin: 50px 10px;
+}
+
+/* Profile Section */
+.Profile {
+    flex: 1;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    height: max-content;
+    padding: 15px;
+}
+
+/* Profile Header Styling */
+.Profile-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Profile-text-container {
+    line-height: 0.5;
+    margin-left: 10px;
+}
+
+.Profile-title {
+    font-size: 22px; /* Ukuran font lebih besar agar nama terlihat jelas */
+    color: #1F316F;
+    font-weight: 500; /* Membuat teks lebih bold */
+    margin-bottom: 5px;
+}
+
+.Profile-email {
+    font-size: 14px;
+    color: #768495;
+}
+
+/* Menu Styling */
+.menu {
+    margin: 20px 0;
+}
+
+.menu-link {
+    display: block;
+    padding: 10px;
+    color: #768495;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-link:hover {
+    background-color: #D3D3D3;
+}
+
+.menu-link.active {
+    background-color: #1F316F;
+    color: #fff;
+}
+
+.menu-link .menu-icon {
+    margin-right: 10px;
+}
+
+/* Account Section */
+.Account {
+    flex: 2;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Account Header */
+.Account-Header {
+    padding: 10px;
+    border-bottom: 1px solid #768499;
+}
+
+.Account-Title {
+    font-size: 20px;
+    color: #1F316F;
+    font-weight: 500;
+}
+
+/* Button Container and Styling */
+.btn-Container {
+    margin-right: 5px;
+}
+
+.btn-Cancel, .btn-Save {
+    width: 8em;
+    height: 3em;
+    cursor: pointer;
+    border-radius: 2em;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 5px;
+    background-color: #1F316F;
+    text-align: center;
+    border: none;
+    padding: 10px 20px;
+}
+
+.btn-Cancel:hover, .btn-Save:hover {
+    background-color: #4054c9;
+}
+
+.btn-Cancel {
+    background-color: #f1f5f9;
+    color: #1F316F;
+    border: 1px solid #1F316F;
+}
+
+.btn-Cancel:hover {
+    background-color: #e3e5e8;
+}
+
+/* Account Edit Form */
+.Account-edit {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 0;
+}
+
+.input-Container {
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.input-Container label {
+    color: #768499;
+    font-size: 14px;
+}
+
+.input-Container input,
+.input-Container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1.6px solid #768499;
+    border-radius: 10px;
+    color: #768499;
+    box-sizing: border-box;
+}
+
+.input-Container input:focus,
+.input-Container textarea:focus {
+    outline: none;
+    border-color: #1F316F;
+}
+
+/* Notification Page Styles */
+.Notification {
+    flex: 2;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.Notification-Header {
+    padding: 10px;
+    border-bottom: 1px solid #768499;
+}
+
+.Notification-Title {
+    font-size: 20px;
+    color: #1e293b;
+    font-weight: 500;
+}
+
+.Notification-Content h2 {
+    color: #1e293b;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.article-list, .finance-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.article-list li, .finance-list li {
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+.article-list li a {
+    text-decoration: none;
+    color: #1F316F;
+}
+
+.article-list li a:hover {
+    text-decoration: underline;
+    color: #4054c9;
+}
+
+.finance-list .income {
+    color: green;
+}
+
+.finance-list .expense {
+    color: red;
+}

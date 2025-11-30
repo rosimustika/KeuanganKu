@@ -1,0 +1,135 @@
+*,
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(400deg, #344a72, #ffffff);
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px 20px; 
+    gap: 20px; 
+}
+
+.pemasukanbox {
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: block;
+    margin: 30px;
+}
+
+.pemasukanbox h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    color: #344a72;
+}
+
+.wrapper label {
+    display: inline-flex;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #344a72;
+}
+
+.wrapper input[type="submit"], button {
+    width: 100%;
+    height: 35px; 
+    margin-top: 15px;
+    border: none;
+    background-color: #344a72;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.wrapper input[type="submit"]:hover, button:hover {
+    background-color: #2a3c55;
+}
+
+.wrapper input[type="number"],
+.wrapper input[type="date"],
+.wrapper input[type="text"],
+.wrapper select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #00008b;
+    border-radius: 5px;
+    font-size: 14px;
+} 
+
+.wrapper input[type="number"]:focus,
+.wrapper input[type="date"]:focus,
+.wrapper input[type="text"]:focus,
+.wrapper select:focus {
+    border-color: #344a72;
+    outline: none;
+}
+
+/* Tabel */
+table.fixed-header {
+    border-collapse: collapse;
+    width: 100%; 
+    max-width: 700px; 
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    font-size: 14px; 
+}
+
+.fixed-header thead th, .fixed-header tbody td {
+    padding: 6px 8px; 
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.fixed-header thead th {
+    background-color: #344a72;
+    color: white;
+}
+
+
+.table-body {
+    max-height: 300px; /* Batasi tinggi maksimal tabel */
+    overflow-y: auto; /* Scroll vertikal jika konten banyak */
+    display: block;
+    width: 100%;
+}
+
+.fixed-header thead,
+.fixed-header tbody tr {
+    display: table;
+    width: 700px;
+    table-layout: fixed; /* Kolom tabel konsisten */
+}
+
+button.print-button {
+    display: block;
+    margin: 15px auto 0 auto;
+    padding: 5px 10px;
+    font-size: 13px;
+    background-color: #28037e;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: auto;
+}
+
+button.print-button:hover {
+    background-color: #45a049;
+}
